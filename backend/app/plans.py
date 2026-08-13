@@ -1,0 +1,1 @@
+PLANS={"month":{"title":"Месяц","price":299,"days":31},"year":{"title":"Год","price":2388,"days":365},"lifetime":{"title":"Навсегда","price":4990,"days":36500}}

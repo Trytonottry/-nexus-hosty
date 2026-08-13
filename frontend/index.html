@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NEXUS VPN — быстрый и приватный интернет</title>
+  <meta name="description" content="NEXUS VPN — быстрый, безопасный и приватный интернет. 50+ стран, AES-256, zero-logs и до 5 устройств одновременно.">
+  <meta name="theme-color" content="#080a12">
+  <meta property="og:title" content="NEXUS VPN — интернет без ограничений">
+  <meta property="og:description" content="Скорость, приватность и безопасность в одном VPN.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="orb orb-a"></div>
+  <div class="orb orb-b"></div>
+
+  <header class="site-header">
+    <a class="logo" href="#" aria-label="NEXUS VPN">
+      <span class="logo-mark"><i></i><i></i><i></i></span>
+      <span>NEXUS<span class="logo-accent">VPN</span></span>
+    </a>
+    <nav class="nav" aria-label="Основная навигация">
+      <a href="#features">Преимущества</a>
+      <a href="#pricing">Тарифы</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <div class="header-actions"><a class="login-link" href="#" onclick="openAuth('login');return false">Войти</a><button class="header-cta js-open-modal">Попробовать</button></div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> Интернет без границ</div>
+        <h1>Быстрый интернет.<br><span class="gradient-text">Настоящая приватность.</span></h1>
+        <p class="hero-text">Защищайте соединение, сохраняйте приватность и подключайтесь к нужным ресурсам из любой точки мира.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary js-open-modal">Попробовать бесплатно <span>→</span></button>
+          <a class="btn btn-ghost" href="#how">Как это работает</a>
+        </div>
+        <div class="trust-row">
+          <span>✓ Без привязки карты</span>
+          <span>✓ Отмена в любой момент</span>
+          <span>✓ 24/7 поддержка</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal delay-1" aria-label="Абстрактная иллюстрация защищённой сети">
+        <div class="visual-glow"></div>
+        <div class="network">
+          <span class="node n1"></span><span class="node n2"></span><span class="node n3"></span>
+          <span class="node n4"></span><span class="node n5"></span><span class="node n6"></span>
+          <span class="node n7"></span>
+          <span class="line l1"></span><span class="line l2"></span><span class="line l3"></span>
+          <span class="line l4"></span><span class="line l5"></span><span class="line l6"></span>
+          <div class="shield">
+            <div class="shield-inner">✓</div>
+          </div>
+        </div>
+        <div class="floating-card fc-top"><span>●</span> Соединение защищено</div>
+        <div class="floating-card fc-bottom"><strong>1.2 Gbps</strong><small>Скорость соединения</small></div>
+      </div>
+    </section>
+
+    <section id="features" class="section container">
+      <div class="section-head reveal">
+        <div>
+          <div class="eyebrow">Почему NEXUS</div>
+          <h2>Всё необходимое для <span class="gradient-text">свободного интернета</span></h2>
+        </div>
+        <p>Никаких сложных настроек. Подключайтесь за несколько секунд и просто пользуйтесь интернетом.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="glass-card feature-card reveal"><div class="icon">◈</div><h3>AES-256</h3><p>Военное шифрование защищает данные от перехвата и анализа трафика.</p><span class="feature-tag">Максимальная защита</span></article>
+        <article class="glass-card feature-card reveal delay-1"><div class="icon">↯</div><h3>Высокая скорость</h3><p>Современная сеть серверов без искусственного ограничения скорости.</p><span class="feature-tag">До 1 Gbps+</span></article>
+        <article class="glass-card feature-card reveal delay-2"><div class="icon">◎</div><h3>50+ стран</h3><p>Серверы по всему миру для стабильного соединения и доступа к нужной локации.</p><span class="feature-tag">Глобальная сеть</span></article>
+        <article class="glass-card feature-card reveal"><div class="icon">◌</div><h3>Zero-logs</h3><p>Мы не сохраняем историю посещений, DNS-запросы и содержимое вашего трафика.</p><span class="feature-tag">Privacy first</span></article>
+        <article class="glass-card feature-card reveal delay-1"><div class="icon">⌁</div><h3>5 устройств</h3><p>Один аккаунт можно использовать одновременно на смартфоне, ПК, планшете и других устройствах.</p><span class="feature-tag">1 аккаунт → 5 устройств</span></article>
+        <article class="glass-card feature-card reveal delay-2"><div class="icon">?</div><h3>Поддержка 24/7</h3><p>Поможем подключиться, настроить приложение и решить любой технический вопрос.</p><span class="feature-tag">Живые специалисты</span></article>
+      </div>
+    </section>
+
+    <section id="how" class="section how-section">
+      <div class="container">
+        <div class="center-head reveal">
+          <div class="eyebrow">Просто начать</div>
+          <h2>Три шага до <span class="gradient-text">защищённого соединения</span></h2>
+        </div>
+        <div class="steps">
+          <div class="step reveal"><div class="step-number">01</div><div class="step-icon">◎</div><h3>Регистрация</h3><p>Создайте аккаунт за несколько секунд. Email — единственное, что понадобится.</p></div>
+          <div class="step-line"></div>
+          <div class="step reveal delay-1"><div class="step-number">02</div><div class="step-icon">₽</div><h3>Оплата</h3><p>Выберите тариф и удобный способ оплаты. Никаких скрытых платежей.</p></div>
+          <div class="step-line"></div>
+          <div class="step reveal delay-2"><div class="step-number">03</div><div class="step-icon">↯</div><h3>Подключение</h3><p>Скачайте приложение, войдите в аккаунт и нажмите одну кнопку.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="section container">
+      <div class="center-head reveal">
+        <div class="eyebrow">Тарифы</div>
+        <h2>Выберите свой <span class="gradient-text">уровень свободы</span></h2>
+        <p>Начните с бесплатного периода и отмените подписку в любой момент.</p>
+      </div>
+      <div class="pricing-grid">
+        <article class="price-card glass-card reveal">
+          <div class="price-title">Месяц</div><p class="price-description">Для короткого периода</p>
+          <div class="price"><strong>299 ₽</strong><span>/ мес</span></div>
+          <ul><li>✓ 50+ стран</li><li>✓ До 5 устройств</li><li>✓ Безлимитный трафик</li><li>✓ AES-256 шифрование</li><li>✓ Поддержка 24/7</li></ul>
+          <button class="btn btn-ghost wide js-open-modal" data-plan="Месяц">Выбрать</button>
+        </article>
+
+        <article class="price-card featured glass-card reveal delay-1">
+          <div class="popular">ПОПУЛЯРНЫЙ</div>
+          <div class="price-title">Год</div><p class="price-description">Максимум выгоды</p>
+          <div class="price"><strong>199 ₽</strong><span>/ мес</span></div>
+          <div class="billing-note">2 388 ₽ за год <b>−33%</b></div>
+          <ul><li>✓ Всё из тарифа «Месяц»</li><li>✓ Приоритетная поддержка</li><li>✓ Новые серверы первыми</li><li>✓ Безлимитный трафик</li><li>✓ До 5 устройств</li></ul>
+          <button class="btn btn-primary wide js-open-modal" data-plan="Год">Выбрать</button>
+        </article>
+
+        <article class="price-card glass-card reveal delay-2">
+          <div class="price-title">Навсегда</div><p class="price-description">Одна оплата — навсегда</p>
+          <div class="price"><strong>4 990 ₽</strong><span>разово</span></div>
+          <ul><li>✓ Пожизненный доступ</li><li>✓ 50+ стран</li><li>✓ До 5 устройств</li><li>✓ Безлимитный трафик</li><li>✓ Приоритетная поддержка</li></ul>
+          <button class="btn btn-ghost wide js-open-modal" data-plan="Навсегда">Выбрать</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="center-head reveal"><div class="eyebrow">Отзывы</div><h2>Что говорят <span class="gradient-text">пользователи</span></h2></div>
+      <div class="reviews-grid">
+        <article class="review glass-card reveal"><div class="person"><div class="avatar">АК</div><div><strong>Алексей К.</strong><span>Пользователь 2 года</span></div></div><p>«Подключается буквально за минуту. Скорость почти не отличается от прямого соединения — для меня это главное.»</p><div class="stars">★★★★★</div></article>
+        <article class="review glass-card reveal delay-1"><div class="person"><div class="avatar">МВ</div><div><strong>Мария В.</strong><span>Пользователь 8 месяцев</span></div></div><p>«Наконец-то VPN, который не приходится постоянно перенастраивать. Работает стабильно и на ноутбуке, и на телефоне.»</p><div class="stars">★★★★★</div></article>
+        <article class="review glass-card reveal delay-2"><div class="person"><div class="avatar">ДР</div><div><strong>Дмитрий Р.</strong><span>Пользователь 1 год</span></div></div><p>«Понравилась поддержка. Ответили ночью и помогли разобраться с настройкой за несколько сообщений.»</p><div class="stars">★★★★★</div></article>
+        <article class="review glass-card reveal"><div class="person"><div class="avatar">ЕП</div><div><strong>Елена П.</strong><span>Пользователь 5 месяцев</span></div></div><p>«Взяла годовой тариф после пробного периода. Никаких проблем с оплатой и подключением, всё понятно.»</p><div class="stars">★★★★★</div></article>
+      </div>
+    </section>
+
+    <section id="faq" class="section container faq-section">
+      <div class="section-head reveal"><div><div class="eyebrow">FAQ</div><h2>Частые <span class="gradient-text">вопросы</span></h2></div><p>Если не нашли ответ — напишите в поддержку.</p></div>
+      <div class="faq-list reveal">
+        <details open><summary>Безопасно ли использовать NEXUS VPN?<span>+</span></summary><p>Да. Соединение шифруется с использованием современных протоколов. Мы не храним историю посещений и содержимое вашего трафика.</p></details>
+        <details><summary>Какие устройства поддерживаются?<span>+</span></summary><p>Windows, macOS, Linux, Android и iOS. Один аккаунт позволяет одновременно подключить до пяти устройств.</p></details>
+        <details><summary>Можно ли вернуть деньги?<span>+</span></summary><p>Да, для новых пользователей действует гарантия возврата в течение 7 дней. Условия возврата зависят от выбранного способа оплаты.</p></details>
+        <details><summary>Какие способы оплаты доступны?<span>+</span></summary><p>Здесь можно подключить ЮKassa, Stripe или CryptoCloud. Конкретный набор способов зависит от региона и выбранной интеграции.</p></details>
+        <details><summary>У вас действительно zero-logs?<span>+</span></summary><p>Мы не собираем историю посещений, содержимое трафика и DNS-запросы. Технические данные, необходимые для работы аккаунта и защиты сервиса от злоупотреблений, могут храниться отдельно.</p></details>
+        <details><summary>Можно ли отменить подписку?<span>+</span></summary><p>Да. Автопродление можно отключить в личном кабинете в любое время. Доступ сохраняется до конца оплаченного периода.</p></details>
+      </div>
+    </section>
+
+    <section class="final-cta container reveal">
+      <div class="cta-glow"></div>
+      <div class="eyebrow">Готовы попробовать?</div>
+      <h2>Интернет должен быть <span class="gradient-text">вашим.</span></h2>
+      <p>Начните бесплатно и почувствуйте разницу уже сегодня.</p>
+      <button class="btn btn-primary js-open-modal">Попробовать бесплатно <span>→</span></button>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <div class="footer-main">
+      <a class="logo" href="#"><span class="logo-mark"><i></i><i></i><i></i></span><span>NEXUS<span class="logo-accent">VPN</span></span></a>
+      <div class="footer-links"><a href="#">Политика конфиденциальности</a><a href="#">Оферта</a><a href="#">Поддержка</a></div>
+      <div class="socials"><a href="#" aria-label="Telegram">TG</a><a href="#" aria-label="VK">VK</a></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 NEXUS VPN. Все права защищены.</span><span>Сервис предназначен для защиты сетевого соединения.</span></div>
+  </footer>
+
+  <div class="modal" id="signupModal" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" data-close-modal aria-label="Закрыть">×</button>
+      <div class="eyebrow">Начать использование</div>
+      <h2 id="modalTitle">Создать аккаунт</h2>
+      <p class="modal-subtitle">Выберите тариф. Оплата будет подключена через ваш платёжный шлюз.</p>
+      <form id="signupForm">
+        <label>Email<input type="email" name="email" placeholder="you@example.com" required></label><label>Пароль<input type="password" name="password" placeholder="Минимум 8 символов" minlength="8" required></label>
+        <label>Тариф<select name="plan" id="planSelect"><option>Месяц — 299 ₽/мес</option><option>Год — 2 388 ₽/год</option><option>Навсегда — 4 990 ₽</option></select></label>
+        <button class="btn btn-primary wide" type="submit">Продолжить к оплате →</button>
+      </form>
+      <div class="payment-note">🔒 Данные передаются по защищённому соединению</div>
+      <div class="payment-slots"><span>ЮKassa</span><span>CryptoCloud</span></div><div class="checkout-provider"><label>Способ оплаты<select id="providerSelect"><option value="yookassa">ЮKassa</option><option value="cryptocloud">CryptoCloud</option></select></label></div>
+      <p class="form-status" id="formStatus"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script><script src="auth.js"></script>
+</body>
+</html>
